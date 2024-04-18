@@ -13,7 +13,7 @@ function FromTheCurb(): JSX.Element {
   }
 
   return (
-    <div>
+    <div className="images-container">
       {constants.images.map(renderImage)}
     </div>
   );
